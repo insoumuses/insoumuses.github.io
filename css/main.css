@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #baeb26;
+  background: #75ff26;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2432,7 +2432,7 @@ hr {
 }
 body {
   background: url("https://insoumuses.github.io/uploads/a.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat-y /*图片将在垂直方向上重复*/;
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
